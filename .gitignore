@@ -1,0 +1,24 @@
+.DS_Store
+.idea/
+.vscode/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mplconfig/
+
+# Research inputs and generated artifacts are intentionally external.
+data/
+outputs/
+*.cif
+*.json
+*.csv
+*.xlsx
+*.png
+*.pdf
+
+# Keep small test fixtures if they are added later.
+!tests/fixtures/**/*.cif
+!tests/fixtures/**/*.json
+!tests/fixtures/**/*.csv
